@@ -1,4 +1,4 @@
-FROM resin/rpi-raspbian:wheezy
+FROM resin/rpi-raspbian
 MAINTAINER Negash <i@negash.ru>
 
 ENV DEBIAN_FRONTEND noninteractive

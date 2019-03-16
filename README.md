@@ -8,7 +8,7 @@ This is a docker image with simple VPN (PPTP) server with authentication work on
 To start VPN server as a docker container run:
 
 ````
-docker run -d --privileged --net=host negash/rpi-pptp-vpn
+docker un -d -e VPN_USER='yourlogin' -e VPN_PASS='yourpassword' --privileged --net=host json1416/rpi-pptp
 ````
 Default auth is `username` and `password`
 
